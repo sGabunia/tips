@@ -1,0 +1,34 @@
+1. In JavaScript they are written like this:
+
+Greater/less than: a > b, a < b.
+Greater/less than or equals: a >= b, a <= b.
+Equals: a == b, please note the double equality sign == means the equality test, while a single one a = b means an assignment.
+Not equals. In maths the notation is ≠, but in JavaScript it’s written as a != b.
+
+2. All comparison operators return a boolean value;
+3. alert( '2' > 1 ); // true, string '2' becomes a number 2
+  alert( '01' == 1 ); // true, string '01' becomes a number 1
+4. A strict equality operator === checks the equality without type conversion.
+
+In other words, if a and b are of different types, then a === b immediately returns false without an attempt to convert them.
+alert( 0 === false ); // false, because the types are different
+
+alert( null == undefined ); // true
+alert( null === undefined ); // false
+
+5. alert( null > 0 );  // (1) false
+alert( null == 0 ); // (2) false
+alert( null >= 0 ); // (3) true
+Mathematically, that’s strange. The last result states that "null is greater than or equal to zero", so in one of the comparisons above it must be true, but they are both false.
+
+The reason is that an equality check == and comparisons > < >= <= work differently. Comparisons convert null to a number, treating it as 0. That’s why (3) null >= 0 is true and (1) null > 0 is false.
+
+On the other hand, the equality check == for undefined and null is defined such that, without any conversions, they equal each other and don’t equal anything else. That’s why (2) null == 0 is false.
+
+6. Comparison operators return a boolean value.
+Strings are compared letter-by-letter in the “dictionary” order.
+When values of different types are compared, they get converted to numbers (with the exclusion of a strict equality check).
+The values null and undefined equal == each other and do not equal any other value.
+Be careful when using comparisons like > or < with variables that can occasionally be null/undefined. Checking for null/undefined separately is a good idea.
+
+7.Values null and undefined equal each other only.

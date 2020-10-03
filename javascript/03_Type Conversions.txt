@@ -1,0 +1,6 @@
+1. Numeric conversion happens in mathematical functions and expressions automatically.
+For example, when division / is applied to non-numbers: "6" / "2" = 3;
+2. If the string is not a valid number, the result of such a conversion is NaN.
+3. String(value), Number(value), Boolean(value);
+4. Please note: the string with zero "0" is true;
+5. 0, null, undefined, Nan, "" - false;

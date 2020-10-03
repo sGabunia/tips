@@ -1,0 +1,17 @@
+1. An operand – is what operators are applied to. For instance, in the multiplication of 5 * 2 there are two operands: the left operand is 5 and the right operand is 2. Sometimes, people call these “arguments” instead of “operands”.
+2. An operator is unary if it has a single operand. For example, the unary negation - reverses the sign of a number: x = -x;
+3. An operator is binary if it has two operands. The same minus exists in binary form as well: let x = 1, y = 3;
+alert( y - x ); // 2, binary minus subtracts values;
+4. The following math operations are supported:
+
+Addition +,
+Subtraction -,
+Multiplication *,
+Division /,
+Remainder %,
+Exponentiation **.
+5. when we make sum(use +) --> Note that if any of the operands is a string, then the other one is converted to a string too. This works only on +;
+6. if + is unary, it converts type to number; It actually does the same thing as Number(...), but is shorter.
+7. Let’s note that an assignment = is also an operator. It is listed in the precedence table with the very low priority of 3.
+
+That’s why, when we assign a variable, like x = 2 * 2 + 1, the calculations are done first and then the = is evaluated, storing the result in x.

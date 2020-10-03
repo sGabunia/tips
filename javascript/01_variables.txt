@@ -1,0 +1,6 @@
+1. ორჯერ დეკლარირება ერორს აგდებს / SyntaxError: 'message' has already been declared;
+2. The name must contain only letters, digits, or the symbols $ and _.
+3. When the name contains multiple words, camelCase is commonly used. That is: words go one after another, each word except first starting with a capital letter: myVeryLongName.
+4. Variables named apple and AppLE are two different variables. Case matters;
+5. Non-Latin letters are allowed, but not recommended;
+6. Variables declared using const are called “constants”. They cannot be reassigned. An attempt to do so would cause an error;
