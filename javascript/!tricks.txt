@@ -1,0 +1,10 @@
+1. მაგალითად იმ წინადედებები ამოღება, რომელიც კონკრეტულ სიტყვას შეიცავს
+   if (greetings[i].indexOf('Christmas') !== -1)
+2. პირველი ასოს კაპიალიაზცია
+   let capitalized = input.toLowerCase();
+   let firstLetter = capitalized[0];	
+   let finalCapitalized = capitalized.replace(firstLetter, firstLetter.toUpperCase())
+3. რამე სიმბოლოს პოვნა ინდექსით და მერე იქედან მოყოლებული სტრინგის ამოღება
+   let index = input.indexOf(';');
+   let stationName = input.slice(index + 1) 
+4. string.replace('sergo', 'kako')

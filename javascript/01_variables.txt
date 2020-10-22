@@ -4,3 +4,13 @@
 4. Variables named apple and AppLE are two different variables. Case matters;
 5. Non-Latin letters are allowed, but not recommended;
 6. Variables declared using const are called “constants”. They cannot be reassigned. An attempt to do so would cause an error;
+7.  first character must not be a number
+8. var-ის გარეშე როცა ვაკეტებთ, ერორს არ აგდებს, და ემატება გლობალურ ობჯექტს. window.message ჩვეულებრივად იღებს ცვლადის მნისვნელობას. message ამ შემთხვევაში გლობალური ობიექტის ფროფერთია და არა ცვლადი
+9. ბრაუზერითვის გლობალურ ობიექტს window ქვია, node.js–თვის(server ჯავასკრიპტისთვის) global
+10. const აუცილებლად ინიციალიზირებული უნდა იყოს
+11. // const - restrictions that make code more readable
+// 1) must be initialized with value
+// 2) can't be reassigned after declaration
+
+12. სახელის დარქმევისას როცა ბულიანია is-has (isTrue) გაუწერე.
+13. ცორა მაგალიტათ ფერს უწერ ცვლადს, დიდი ასოებიტ COLOR_RED

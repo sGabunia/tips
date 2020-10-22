@@ -1,0 +1,18 @@
+- grid-auto-rows -> იმ რიგზე სიმაღლის მიცემა, რომლისთვისაც სიმაღლე სპციალურად არ მიგიცია;
+- grid-auto-flow: column -> დამატებითი აითემი როუში არ გადადის და ქოლამნად ემატება -- ამ დროს ზომას აძლევ  grid-auto-columns–ით;
+- სასურველი არაა პროცენტების გამოყენება გრიდში;
+- fr free space–ს იღებს;
+- იშრინკება სტანდარტულ ზომის ერთეულის მიცემაზე;
+- grid-template-columns: auto 1fr -> აუტოზე ქოლმნი მიიღებს ყველაზე გრძელი ელემენტის სიგანეს, დანარჩენი სივრცე ფრ–ს;
+- grid-template-columns: auto auto --> თანაბრად იყოფა ორი ქოლამნი მთელ სიგანეზე;
+- grid-template-columns: repeat(4, 1fr 2fr) --> 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr ივივეა – ამრავლებს ნებისმიერს
+- grid-template-columns: repeat(4, 1fr 2fr) 100px 200px --> ასეც შეიძლება
+
+-  .item9 {
+      background: mistyrose;
+      grid-column: span 3;
+    }
+ იღებს სამ ქოლამნს საწყისი პოზიციიდან, თუ სიტყვაზე 5 ქოლამნია და ეს მეოთხეში იწყება, ახალ ხაზზე აგედებს, რადგან ქოლამნები არ ყოფნის
+
+- grid-column: 2/5 -> shortand grid-column-start and grid-column-end;
+- auto-fill ამატებს ქოლამნებს ბოლომდე მორჩენილ სივრცეში, auto-fit არა;

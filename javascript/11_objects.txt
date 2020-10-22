@@ -1,0 +1,4 @@
+1. ojects for related data;
+2. variables - boxes; objects - file cabinets -> keys are the names on each file an values are content of the file
+3. keys are only strings, values can be any type;
+4.{} - object literal

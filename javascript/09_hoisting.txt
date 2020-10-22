@@ -1,0 +1,17 @@
+//var age;//
+console.log(age); // undefined
+var age = 26;
+
+მარტო ცვლადის დეკლარაციის ჰოისტინგი ხდება.
+
+strict mode ამ პრობლემას არ აგვარებს;
+
+let and const are not hoisted;
+
+---------------------------------------------
+console.log(age);
+
+// temporal dead zone იქმნება
+მკვდარია ცვლადი ამ არეაში
+
+let age = 26;

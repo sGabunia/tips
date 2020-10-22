@@ -1,0 +1,2 @@
+1) Closures are a property of JavaScript functions
+2) Call function in different scope than where function was original defined
