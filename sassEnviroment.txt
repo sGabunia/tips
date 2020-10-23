@@ -1,0 +1,6 @@
+1. npm init
+2. npm install node-sass
+3. "sass": "node-sass -w scss/ -o dist/css/ ––recursive"   - test–ის ნაცვლად;
+4. ვქმნით scss folder/main.scss და dist folder/index.html;
+5. npm run sass
+6. ვტესტავთ main.scss–ს და ავტომატურად იქმნება css folder-ში main.css
